@@ -13,6 +13,14 @@ code {
     monospace;
 }
 
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .a {
   text-decoration: none;
 }
@@ -2016,6 +2024,19 @@ a:hover {
 }
 .builds-list .builds-list-item.open .build-character {
   padding-top: 2px;
+}
+
+.build-name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 15px;
+}
+
+.build-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #dbddef;
 }
 .builds-list
   .builds-list-item.open

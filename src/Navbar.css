@@ -1,0 +1,30 @@
+.topNav {
+  overflow: hidden;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: #1a1e22;
+}
+
+.topNav a {
+  text-align: center;
+  text-decoration: none;
+  color: #e8e6e3;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.nav-container {
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
+.nav-container-right {
+  float: right;
+  color: #e8e6e3;
+}
+
+.nav-container-left {
+  float: left;
+  color: #e8e6e3;
+}
